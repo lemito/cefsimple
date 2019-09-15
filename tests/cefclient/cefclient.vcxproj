@@ -1,0 +1,688 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9E904828-6D39-35B3-B18F-01D7C372CC9E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>cefclient</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cefclient.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cefclient</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cefclient.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cefclient</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4127;4244;4481;4512;4701;4702;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;CEF_USE_ATL;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;CEF_USE_ATL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Adding manifest...																</Message>
+      <Command>setlocal
+mt.exe -nologo -manifest "D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/resources/win/cefclient.exe.manifest" "D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/resources/win/compatibility.manifest" -outputresource:"D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/cefclient.exe";#1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Debug/chrome_elf.dll D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/chrome_elf.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Debug/d3dcompiler_47.dll D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/d3dcompiler_47.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Debug/libcef.dll D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/libcef.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Debug/libEGL.dll D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/libEGL.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Debug/libGLESv2.dll D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/libGLESv2.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Debug/natives_blob.bin D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/natives_blob.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Debug/snapshot_blob.bin D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/snapshot_blob.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Debug/v8_context_snapshot.bin D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/v8_context_snapshot.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_directory D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Debug/swiftshader D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/swiftshader
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Resources/cef.pak D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/cef.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Resources/cef_100_percent.pak D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/cef_100_percent.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Resources/cef_200_percent.pak D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/cef_200_percent.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Resources/cef_extensions.pak D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/cef_extensions.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Resources/devtools_resources.pak D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/devtools_resources.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Resources/icudtl.dat D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/icudtl.dat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_directory D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Resources/locales D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/locales
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\Debug\libcef.lib;..\..\libcef_dll_wrapper\Debug\libcef_dll_wrapper.lib;comctl32.lib;rpcrt4.lib;shlwapi.lib;ws2_32.lib;d3d11.lib;glu32.lib;imm32.lib;opengl32.lib;oleacc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/cefclient.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Debug/cefclient.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\win\cefclient.exe.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4127;4244;4481;4512;4701;4702;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;CEF_USE_ATL;_NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;CEF_USE_ATL;_NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Adding manifest...																</Message>
+      <Command>setlocal
+mt.exe -nologo -manifest "D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/resources/win/cefclient.exe.manifest" "D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/resources/win/compatibility.manifest" -outputresource:"D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/cefclient.exe";#1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Release/chrome_elf.dll D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/chrome_elf.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Release/d3dcompiler_47.dll D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/d3dcompiler_47.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Release/libcef.dll D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/libcef.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Release/libEGL.dll D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/libEGL.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Release/libGLESv2.dll D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/libGLESv2.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Release/natives_blob.bin D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/natives_blob.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Release/snapshot_blob.bin D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/snapshot_blob.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Release/v8_context_snapshot.bin D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/v8_context_snapshot.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_directory D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Release/swiftshader D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/swiftshader
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Resources/cef.pak D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/cef.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Resources/cef_100_percent.pak D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/cef_100_percent.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Resources/cef_200_percent.pak D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/cef_200_percent.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Resources/cef_extensions.pak D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/cef_extensions.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Resources/devtools_resources.pak D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/devtools_resources.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_if_different D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Resources/icudtl.dat D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/icudtl.dat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\cmake\bin\cmake.exe -E copy_directory D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/Resources/locales D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/locales
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\Release\libcef.lib;..\..\libcef_dll_wrapper\Release\libcef_dll_wrapper.lib;comctl32.lib;rpcrt4.lib;shlwapi.lib;ws2_32.lib;d3d11.lib;glu32.lib;imm32.lib;opengl32.lib;oleacc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/cefclient.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/Release/cefclient.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\win\cefclient.exe.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\cmake\bin\cmake.exe -SD:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32 -BD:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32 --check-stamp-file D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\cmake\bin\cmake.exe -SD:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32 -BD:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32 --check-stamp-file D:/CODE/cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32/tests/cefclient/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\binding_test.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\binding_test.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\browser_window.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\browser_window.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\bytes_write_handler.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\bytes_write_handler.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\client_app_delegates_browser.cc" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\client_browser.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\client_browser.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\client_handler.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\client_handler.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\client_handler_osr.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\client_handler_osr.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\client_handler_std.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\client_handler_std.h" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\client_types.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\dialog_test.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\dialog_test.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\drm_test.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\drm_test.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\image_cache.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\image_cache.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\main_context.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\main_context.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\main_context_impl.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\main_context_impl.h" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_dragdrop_events.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_renderer.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_renderer.h" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_renderer_settings.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\preferences_test.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\preferences_test.h" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\resource.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\response_filter_test.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\response_filter_test.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\root_window.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\root_window.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\root_window_create.cc" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\root_window_manager.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\root_window_manager.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\scheme_test.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\scheme_test.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\server_test.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\server_test.h" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\temp_window.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\test_runner.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\test_runner.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\urlrequest_test.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\urlrequest_test.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\window_test.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\window_test.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\window_test_runner.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\window_test_runner.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\client_app_browser.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\client_app_browser.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\extension_util.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\extension_util.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\file_util.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\file_util.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\geometry_util.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\geometry_util.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\main_message_loop.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\main_message_loop.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\main_message_loop_external_pump.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\main_message_loop_external_pump.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\main_message_loop_std.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\main_message_loop_std.h" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\resource_util.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\common\client_app_delegates_common.cc" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\common\scheme_test_common.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\common\scheme_test_common.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\common\client_app.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\common\client_app.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\common\client_app_other.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\common\client_app_other.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\common\client_switches.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\common\client_switches.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\renderer\client_app_delegates_renderer.cc" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\renderer\client_renderer.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\renderer\client_renderer.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\renderer\performance_test.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\renderer\performance_test.h" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\renderer\performance_test_setup.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\renderer\performance_test_tests.cc" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\renderer\client_app_renderer.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\renderer\client_app_renderer.h" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\binding.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\dialogs.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\draggable.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\drm.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\localstorage.html" />
+    <Image Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\logo.png" />
+    <Image Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\menu_icon.1x.png" />
+    <Image Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\menu_icon.2x.png" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\other_tests.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\performance.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\performance2.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\preferences.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\response_filter.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\server.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\transparency.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\urlrequest.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\websocket.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\window.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\xmlhttprequest.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\extensions\set_page_color\README.md" />
+    <Image Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\extensions\set_page_color\icon.png" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\extensions\set_page_color\manifest.json" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\extensions\set_page_color\popup.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\extensions\set_page_color\popup.js" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\resources\osr_test.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\resources\pdf.html" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\resources\pdf.pdf" />
+    <Image Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\resources\window_icon.1x.png" />
+    <Image Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\resources\window_icon.2x.png" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\cefclient_win.cc" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\browser_window_osr_win.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\browser_window_osr_win.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\browser_window_std_win.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\browser_window_std_win.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\main_context_impl_win.cc" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\main_message_loop_multithreaded_win.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\main_message_loop_multithreaded_win.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_accessibility_helper.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_accessibility_helper.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_accessibility_node.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_accessibility_node.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_accessibility_node_win.cc" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_d3d11_win.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_d3d11_win.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_dragdrop_win.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_dragdrop_win.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_ime_handler_win.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_ime_handler_win.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_render_handler_win.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_render_handler_win.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_render_handler_win_d3d11.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_render_handler_win_d3d11.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_render_handler_win_gl.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_render_handler_win_gl.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_window_win.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\osr_window_win.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\resource_util_win_idmap.cc" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\root_window_views.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\root_window_views.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\root_window_win.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\root_window_win.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\temp_window_win.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\temp_window_win.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\views_menu_bar.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\views_menu_bar.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\views_style.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\views_style.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\views_window.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\views_window.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\window_test_runner_views.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\window_test_runner_views.h" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\window_test_runner_win.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\browser\window_test_runner_win.h" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\win\cefclient.ico" />
+    <ResourceCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\win\cefclient.rc" />
+    <None Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefclient\resources\win\small.ico" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\main_message_loop_external_pump_win.cc" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\resource_util_win.cc" />
+    <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\util_win.cc" />
+    <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\shared\browser\util_win.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\ZERO_CHECK.vcxproj">
+      <Project>{94ECE3E6-BEFB-3E43-A2E2-F09E9A48D5F6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\libcef_dll_wrapper\libcef_dll_wrapper.vcxproj">
+      <Project>{13F61E03-52FA-36C1-9C5A-B57723EC1338}</Project>
+      <Name>libcef_dll_wrapper</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

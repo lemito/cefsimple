@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\CMakeFiles\b3e4ded56dd0c15452de73378238065e\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9CB6739B-3F6D-370A-8E32-EBAF12AC66FC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
