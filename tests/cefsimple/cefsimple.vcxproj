@@ -505,6 +505,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\simple_app.h" />
     <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\simple_handler.cc" />
     <ClInclude Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\simple_handler.h" />
+    <None Include="instaler.html" />
+    <None Include="r.js" />
     <None Include="www\index.html" />
     <ResourceCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\cefsimple.rc" />
     <ClCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\cefsimple_win.cc" />

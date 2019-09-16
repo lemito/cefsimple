@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\cef\cef.workspace">
+  <int Value="13" Name="m_selectedTab"/>
+  <wxString Value="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\cef\cef.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\instaler.html" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="11" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\simple_app.cc" Name="FileName"/>
+      <int Value="34" Name="FirstVisibleLine"/>
+      <int Value="89" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\simple_app.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="4" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\simple_handler.cc" Name="FileName"/>
+      <int Value="98" Name="FirstVisibleLine"/>
+      <int Value="4" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\simple_handler_win.cc" Name="FileName"/>
+      <int Value="2" Name="FirstVisibleLine"/>
+      <int Value="4" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\cefsimple.rc" Name="FileName"/>
+      <int Value="31" Name="FirstVisibleLine"/>
+      <int Value="56" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\www\index.html" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\Release\cefsimple.exe" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\Release\cef_extensions.pak" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\Release\locales\fi.pak" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\Release\locales\gu.pak" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\Release\GPUCache\index" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\cefsimple.exe.manifest" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="18" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\r.js" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="1" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+  <wxString Value="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.inc;*.mm;*.m;*.xrc;*.plist;*.txt" Name="m_findInFilesMask"/>
+</Session>

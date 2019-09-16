@@ -38,6 +38,12 @@
     <None Include="www\index.html">
       <Filter>cefsimple\www</Filter>
     </None>
+    <None Include="instaler.html">
+      <Filter>cefsimple\www\installer</Filter>
+    </None>
+    <None Include="r.js">
+      <Filter>cefsimple\www</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="D:\CODE\cef_binary_76.1.13+gf19c584+chromium-76.0.3809.132_windows32\tests\cefsimple\cefsimple.rc">
@@ -53,6 +59,9 @@
     </Filter>
     <Filter Include="cefsimple\www">
       <UniqueIdentifier>{5290e2ca-f517-4598-a835-6dce80e97b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cefsimple\www\installer">
+      <UniqueIdentifier>{7176c03d-957d-44b6-a630-24c2528b6831}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
